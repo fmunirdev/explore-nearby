@@ -4,10 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+werkzeug = "*"
 
 [packages]
 flask = "*"
 gunicorn = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+psycopg2 = "*"
+geocoder = "*"
 
 [requires]
 python_version = "3.7"
